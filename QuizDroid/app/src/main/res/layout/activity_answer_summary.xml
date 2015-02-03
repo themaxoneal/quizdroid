@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.washington.maxoneal.quizdroid.AnswerSummary">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Answer Summary"
+        android:id="@+id/summary"
+        android:layout_marginBottom="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="answer"
+        android:id="@+id/chosenAnswer"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/summary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correct Answer"
+        android:id="@+id/correctAnswer"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/chosenAnswer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/numCorrect"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/correctAnswer" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/next"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/numCorrect"
+        android:layout_marginTop="45dp" />
+</RelativeLayout>
